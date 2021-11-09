@@ -1,4 +1,5 @@
 function prexvl(val, type) {
+  // Kishor Gupta WTR-3(PARUL TEAM)
   var area = document.getElementById(type);
   area.value = area.value.replace(/[^0-9\^]/g, "");
   area.parentElement.parentElement.style.borderColor = "#e1f5e6";
